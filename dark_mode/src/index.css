@@ -1,0 +1,28 @@
+:root {
+    --body-background: white;
+    --title: black;
+    --primary: blue;
+}
+
+[data-theme='light'] {
+    ---body-background: white;
+    --title: black;
+    --primary: blue;
+}
+
+[data-theme='dark'] {
+    ---body-background: rgba(52, 52, 52);
+    --title: black;
+    --primary: rgb(97, 97, 225);
+}
+
+.modalContent {
+    width: 30%;
+    background-color: var(--bg);
+    padding: 3%;
+    position: fixed;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 0px 0px 18px 0px rgba(108, 106, 106, 0.8);
+}
