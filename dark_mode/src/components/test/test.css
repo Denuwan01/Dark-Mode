@@ -33,7 +33,7 @@
     width: 26px;
     left: 4px;
     bottom: 4px;
-    background-color: white;
+    background-color: var(--primary);
     -webkit-transition: .4s;
     transition: .4s;
 }
@@ -59,4 +59,11 @@ input:checked+.slider:before {
 
 .slider.round:before {
     border-radius: 50%;
+}
+
+.wrapper {
+    padding-left: 45%;
+    padding-top: 5%;
+    background-color: var(--body-background);
+    height: 100vh;
 }
