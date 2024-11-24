@@ -15,7 +15,7 @@ export default function Test() {
         <>
             <div className='wrapper'>
                 <label className="switch">
-                    <input type="checkbox" />
+                    <input type="checkbox" onChange={switchTheme} />
                     <span className="slider round"></span>
                 </label>
 

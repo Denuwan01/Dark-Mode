@@ -4,14 +4,20 @@
     --primary: blue;
 }
 
+h2 {
+    font-size: 50px;
+    text-align: center;
+    font-weight: 50px;
+}
+
 [data-theme='light'] {
-    ---body-background: white;
+    --body-background: white;
     --title: black;
     --primary: blue;
 }
 
 [data-theme='dark'] {
-    ---body-background: rgba(52, 52, 52);
+    --body-background: rgba(52, 52, 52);
     --title: black;
     --primary: rgb(97, 97, 225);
 }
